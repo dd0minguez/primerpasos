@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad7</title>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <p><label for="Fecha">Elija una fecha:</label>
+                <input type="date">
+            </p>
+            <p><label for="Archivo">Elija un fichero:</label>
+                <input type="file">
+            </p>
+            <p><input type="radio" id="opc1" name="Procesador" value="AMD">
+                <label for="AMD">AMD</label>
+                <input type="radio" id="opc2" name="Procesador" value="Intel-i5">
+                <label for="Intel-i5">Intel i5</label>
+                <input type="radio" id="opc3" name="Procesador" value="Intel-i7">
+                <label for="Intel-i7">Intel i7</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <p><input type="radio" id="bt1" name="Asignatura" value="Matematicas">
+                <label for="Matematicas">Matemáticas</label>
+                <input type="radio" id="bt2" name="Asignatura" value="Historia">
+                <label for="Historia">Historia</label>
+                <input type="radio" id="bt3" name="Asignatura" value="Geografia">
+                <label for="Geografia">Geografia</label>
+                <input type="radio" id="bt4" name="Asignatura" value="Lengua">
+                <label for="Lengua">Lengua</label>
+            </p>
+            <p><label for="Nombre">Nombre</label>
+                <input type="text" id="txt1" name="DatosUsuario">
+            </p>
+            <p><label for="Apellidos">Apellidos</label>
+                <input type="text" id="txt2" name="DatosUsuario">
+            </p>
+            <p><label for="Direccion">Dirección</label>
+                <input type="text" id="txt3" name="DatosUsuario">
+            </p>
+            <p><label for="Color">Elija un color:</label>
+                <input type="color">
+            </p>
+            <p><textarea name="cuadro-color" id="Color" cols="30" rows="10">Utilice este cuadro para escribir</textarea>
+            </p>
+            <p><label for="Fecha">Elija una fecha:</label>
+                <input type="date">
+            </p>
+            <p><select name="Idioma" id="Lista1">
+                    <option value="Ingles">Inglés</option>
+                </select>
+            </p>
+            <p><label for="hora">Elija una hora:</label>
+                <input type="time">
+            </p>
+            <p><label for="fichero">Elija un fichero:</label>
+                <input type="file">
+            </p>
+            <p><input type="button">
+                <label for="Mujer">Mujer</label>
+                <input type="button">
+                <label for="Hombre">Hombre</label>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
