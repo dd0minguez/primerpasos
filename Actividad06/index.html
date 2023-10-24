@@ -8,7 +8,48 @@
 </head>
 
 <body>
-    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post"></form>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <fieldset>
+            <legend>Rellenar</legend>
+            <p><input type="radio" id="opc1" name="Idioma" value="Inglés">
+                <label for="Idioma1">Inglés</label>
+            </p>
+            <p><input type="radio" id="opc2" name="Idioma" value="Alemán">
+                <label for="Idioma2">Alemán</label>
+            </p>
+            <p><input type="radio" id="opc3" name="Idioma" value="Francés">
+                <label for="Idioma3">Francés</label>
+            </p>
+            <p><select name="USB" id="Lista1">
+                <option value="USB">USB</option>
+                <option value="PS2">PS2</option>
+                </select>
+            </p>
+            <p><label for="NombreUsuario">Nombre:</label>
+                <input type="text" id="NombreUsuario" name="Nombre">
+            </p>
+            <p><label for="ApellidoUsuario">Apellido:</label>
+                <input type="text" id="ApellidoUsuario" name="Apellido">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <p><select multiple name="USB" id="Lista2">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                </select>
+            </p>
+            <p><input type="checkbox" name="Hombre" value="Genero">
+                <label for="Hombre">Hombre</label>
+            </p>
+            <p><input type="checkbox" name="Mujer" value="Genero">
+                <label for="Mujer">Mujer</label>
+            </p>
+            <p><label for="Fecha">Elija una fecha</label>
+                <input type="date">
+            </p>
+        </fieldset>
+    </form>
 </body>
 
 </html>
