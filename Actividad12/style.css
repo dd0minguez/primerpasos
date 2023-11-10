@@ -6,7 +6,6 @@ header {
     background-color: #ffe4c4;
 }
 nav {
-    box-align: left;
     background-color: #f9f4e9;
     float: left;
     width: 185px;
@@ -14,10 +13,10 @@ nav {
 }
 
 main {
-    box-align: right;
     background-color: #fff5e1;
-    margin-left: 220px;
+    float: left 220px;
     padding: 20px;
+    margin-left: 220px ;
 }
 footer {
     background-color: #eed6af;
