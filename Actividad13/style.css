@@ -1,0 +1,26 @@
+body, header, nav, main, footer, h1, h2 {
+    margin: 0;
+}
+header {
+    padding: 20px;
+    background-color: #ffe4c4;
+}
+nav {
+    background-color: #f9f4e9;
+    float: left;
+    width: 185px;
+    padding: 20px 18px;
+}
+
+main {
+    background-color: #fff5e1;
+    float: left 220px;
+    padding: 20px;
+    margin-left: 220px ;
+}
+footer {
+    background-color: #eed6af;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+}
