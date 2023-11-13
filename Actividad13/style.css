@@ -23,6 +23,7 @@ main {
     float: left;
     width: 200px;
     height: 400px;
+    text-align: center;
 }
 footer {
     background-color: #eed6af;
