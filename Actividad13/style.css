@@ -18,6 +18,13 @@ main {
     padding: 20px;
     margin-left: 220px ;
 }
+.pack {
+    background-color: black;
+    margin: 20px;
+    float: left;
+    width: 200px;
+    height: 400px;
+}
 footer {
     background-color: #eed6af;
     text-align: center;
