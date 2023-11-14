@@ -1,0 +1,11 @@
+nav {
+    background-color: aquamarine;
+}
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+}
+.centrado {
+    size: 20px;
+    text-align: left;
+}
