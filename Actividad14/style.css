@@ -4,8 +4,12 @@ nav {
 .contenedor-flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+    align-content: space-around;
 }
-.centrado {
-    size: 20px;
-    text-align: left;
+li {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
 }
