@@ -12,5 +12,8 @@ li {
     list-style: none;
     text-align: center;
     margin: 10px;
+    transition: text;
+}
+h1 {
     color: white;
 }
