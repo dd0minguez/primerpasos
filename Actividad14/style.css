@@ -8,11 +8,22 @@ nav {
     align-items: stretch; 
     align-content: space-around;
 }
+
+
 li {
     list-style: none;
     text-align: center;
     margin: 10px;
-    transition: text;
+}
+
+a {
+    color: white;
+    transition: color 2s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(173, 169, 169);
 }
 h1 {
     color: white;
