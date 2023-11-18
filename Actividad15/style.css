@@ -13,6 +13,19 @@ div {
     flex-direction: column;
     text-align: center;
     border: 10px;
-    box-shadow: 0px 0px 5px black;
+    margin: 25px;
+    box-shadow: 0px 0px 4px black;
     justify-content: space-around;
+    transition: transform 1s;
+    padding: 10px;
+}
+div:hover {
+    transform: scale(1.05);
+}
+img {
+    padding: 5px;
+    border-radius: 50%;
+}
+.colorCargo {
+    color:brown;
 }
