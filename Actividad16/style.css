@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+div {
+    box-shadow: 0px 0px 2px black;
+    transition: transform 1s;
+}
+div:hover {
+    transform: scale(1.05);
+}
