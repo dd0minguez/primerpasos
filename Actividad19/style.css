@@ -1,0 +1,65 @@
+nav {
+    background-color: #3ba3bc;
+}
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+    align-content: space-around;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+    align-content: space-around;
+}
+@media screen and (max-width: 1024px) {
+    .menu::after {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: stretch; 
+        align-content: space-around;
+        content: "☰";
+        color: white;
+    }
+    a {
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 480px) {
+    .menu::after {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: stretch; 
+        align-content: space-around;
+        content: "☰";
+        color: white;
+    }
+    a {
+        visibility: hidden;
+    }
+    input {
+        visibility: hidden;
+    }
+}
+li {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+a {
+    color: white;
+    transition: color 2s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(173, 169, 169);
+}
+h1 {
+    color: white;
+}
