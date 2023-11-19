@@ -1,14 +1,14 @@
 body {
     background-color: aliceblue;
 }
-.texto::after {
+.contenedor-especial::after {
 content: "\221E";
 }
 @media screen and (max-width: 1200px) {
     body {
         background-color: rgb(22, 247, 255);
     }
-    .texto::after {
+    .contenedor-especial::after {
         content:"1200px";
     }
 }
@@ -16,7 +16,7 @@ content: "\221E";
     body {
         background-color: red;
     }
-    .texto::after {
+    .contenedor-especial::after {
         content: "900px";
     }
 }
@@ -24,7 +24,7 @@ content: "\221E";
     body {
         background-color: green;
     }
-    .texto::after {
+    .contenedor-especial::after {
         content: "700px";
     }
 }
@@ -32,7 +32,7 @@ content: "\221E";
     body {
         background-color: yellow;
     }
-    .texto::after {
+    .contenedor-especial::after {
         content: "500px";
     }
 }
