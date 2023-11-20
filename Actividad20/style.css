@@ -1,0 +1,24 @@
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+    align-content: space-around;
+    background-color: #3ba3bc;
+}
+li {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+a {
+    color: white;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(173, 169, 169);
+}
+.blanco {
+    color: white;
+}
