@@ -12,6 +12,11 @@ li {
     margin: 10px;
 }
 .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+    align-content: space-around;
     color: white;
     transition: color 0.5s;
     text-decoration: none;
@@ -23,6 +28,34 @@ li {
     width: 200px;
     height: 30px;
     margin-top: 15px;
+}
+@media screen and (max-width: 1024px) {
+    .menu::after {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: stretch; 
+        align-content: space-around;
+        content: "☰";
+        color: white;
+    }
+    a {
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 390px) {
+    .menu::after {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: stretch; 
+        align-content: space-around;
+        content: "☰";
+        color: white;
+    }
+    a {
+        visibility: hidden;
+    }
 }
 .blanco {
     color: white;
