@@ -1,2 +1,6 @@
 const numeros = Array.from({ length: 5 }, (_, index) => index + 1)
-console.log(`El maximo es  ${Math.max(...numeros)}`)
+const suma = numeros.reduce((a, b)=>a+b,0)
+console.log(`La suma es: ${suma}`)
+console.log(`El maximo es:  ${Math.max(...numeros)}`)
+console.log(`El minimo es:  ${Math.min(...numeros)}`)
+console.log(`La media es:  ${suma/numeros.length}`)
