@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad3.2</title>
+</head>
+
+<body>
+    <button onclick="parrafo(20)">+</button>
+    <button onclick="parrafo(-20)">-</button>
+    <div class="parrafo" style="font-size: 50px;">
+        <p>Hola</p>
+        <p>Mundo</p>
+    </div>
+
+
+    <script>
+        // let boto=document.getElementById("Hola");
+        function parrafo(diferencia) {
+            const element = document.querySelector('.parrafo')
+            const fontSize = parseInt(element.style.fontSize)
+            element.style.fontSize = (fontSize + diferencia) + "px"
+            console.log(fontSize)
+
+        }
+
+        /*for (const parrafo in parrafos) {
+            if (Object.hasOwnProperty.call(ps, p)
+            let size = parseInt(parrafo.style.fontSize)
+        if (!size)
+            parrafo 
+            parrafo.style.fontSize = (size +1 ) + "px"
+        }
+    /*let parrafo = document.getElementById("parrafo")*/
+        /*let ps = document.querySelectorAll("p")
+        for (const p in ps) {
+            if (Object.hasOwnProperty.call(ps, p)) {
+                /*const element = ps[p];
+                element.style.fontSize = element.style.fontSize +1
+                const element = document.querySelector('.parrafo')
+                const fontSize = element.style.fontSize
+                console.log(fontSize)
+            }
+        }*/
+        /* parrafo.style.fontSize = "50px"
+         for (const p in ps) {
+             if (Object.hasOwnProperty.call(ps, p)) {
+                 const element = ps[p];
+                 element.style.fontSize = element.style.fontSize -1
+             }
+         }*/
+
+    </script>
+</body>
+
+</html>

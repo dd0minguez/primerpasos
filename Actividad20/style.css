@@ -62,6 +62,7 @@ li {
 }
 .Ptrozo {
     display: flex;
+    /* gap: 100px; */
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -76,7 +77,12 @@ li {
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    width: 520px;
+    width: 50%;
+    padding: 50px;
+}
+
+.porciento{
+    width: 50%;
 }
 .tamaño-img1 {
     display: flex;
@@ -84,7 +90,7 @@ li {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
-    width: 650px;
+    width: 90%;
     height: 425px;
     margin: 50px;
     border-radius: 10px;
@@ -119,13 +125,19 @@ li {
     margin-bottom: 5px;
     text-decoration: none;
 }
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
 .portfolio {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: stretch;
-    align-content: space-between;
+    /* align-content: space-between; */
     background-color: rgb(233, 255, 254);
 }
 .p1 {
@@ -133,19 +145,21 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    width: 520px;
+    /* align-items: center;
+    align-content: center; */
+    width: 100%;
 }
 .tamaño-img3 {
-    width: 400px;
+    width: 100%;
     height: 250px;
 }
 .centrado {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 50px;
     align-content: center;
     align-items: stretch; 
 }
@@ -155,7 +169,7 @@ li {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
-    width: 400px;
+    width: 300px;
     height: 370px;
     margin: 30px;
     box-shadow: 0px 0px 3px #3ba3bc;
