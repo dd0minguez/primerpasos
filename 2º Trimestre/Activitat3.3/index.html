@@ -13,13 +13,13 @@
         function div() {
             var newDiv = document.createElement("div");
             var newContent = document.createTextNode("Lorem ipsum dolor sit amet.");
-            newDiv.appendChild(newContent); 
-            var currentDiv = document.getElementById("div1");
-            document.body.insertBefore(newDiv, currentDiv);
+            newDiv.appendChild(newContent);
+            document.body.appendChild(newDiv);
         }
-        function borrar(id) {
-            let newDiv = document.getElementById("" + id);
-            node.parentNode.removeChild(newDiv);
+        function borrar() {
+            // buscar el div que quieres eliminar
+            let hijos = document.body.children
+            hijos[hijos.length-1].remove()
         }
     </script>
 </body>
