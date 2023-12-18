@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat3.4</title>
+</head>
+
+<body>
+    <div>
+        <p id="Texto">Hola mundo</p>
+        <p id="Traduccion">Traducir</p>
+    </div>
+    <script>
+        function mifuncion() {
+            let texto = document.getElementById("Texto");
+            texto.firstChild.nodeValue = "Hello world";
+        }
+        function TraducirTextoIngles() {
+            let boton = document.getElementById("Traduccion");
+            boton.addEventListener("click", textoIngles, false);
+        }
+        // buscarlo y guardarlo en la let boto
+        boto.addEventListener("click", mifuncion)
+    </script>
+</body>
+
+</html>
