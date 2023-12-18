@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad3.3</title>
+</head>
+<body>
+    <button onclick="div()">Añadir</button>
+    <button onclick="borrar()">Eliminar</button>
+    <script>
+        function div() {
+            var newDiv = document.createElement("div");
+            var newContent = document.createTextNode("Lorem ipsum dolor sit amet.");
+            newDiv.appendChild(newContent); 
+            var currentDiv = document.getElementById("div1");
+            document.body.insertBefore(newDiv, currentDiv);
+        }
+        function borrar(id) {
+            let newDiv = document.getElementById("" + id);
+            node.parentNode.removeChild(newDiv);
+        }
+    </script>
+</body>
+
+</html>
