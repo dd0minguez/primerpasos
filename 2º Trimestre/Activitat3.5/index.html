@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat3.5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="fondo">Cambiar fondo</button>
+    <button id="quitarFondo">Restablecer</button>
+    <script>
+        function fondo(){
+            let boton = window.getComputedStyle("body::after");
+            document.body.appendChild(boton);
+        } 
+        function quitarFondo() {
+            let hijos = document.body.children
+            hijos[hijos.length-1].remove()
+        }
+    </script>
+</body>
+</html>
