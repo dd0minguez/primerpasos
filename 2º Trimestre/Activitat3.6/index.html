@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat3.6</title>
+</head>
+<body>
+    <input type="text" name="" id="input">
+    <button type="button" onclick="buscar()">Buscar</button>
+    <p>Neque porro quisquam est qui ex dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat quam, luctus ac semper ex nec, congue
+        aliquam lacus.</p>
+    <p>Proin sed fringilla leo. Sed ultrices ex quis ex sodales, sed pulvinar ante aliquam.</p>
+    <p>Phasellus enim augue, sagittis et interdum vitae, dignissim non ante.</p>
+    <p>Donec ex pulvinar sem est, in tincidunt orci fringilla a.</p>
+    <p>Etiam a tellus dolor.</p>
+    <script>
+        let parrafos = document.querySelectorAll("p")
+        let palabra = document.getElementsByName("ex")
+        const input = document.getElementById("input")
+        /*input.addEventListener("click", aviso, false)*/
+        function buscar() {
+            alert ( "Has seleccionado "  + " " + input.value);
+            parrafos.forEach((parrafo, index) => {
+                if (parrafo.textContent.includes(input.value)) {
+                    parrafo.style.backgroundColor = "#ACFEFF";
+                } else {
+                    parrafo.style.backgroundColor = "";
+                }
+            })
+        }
+    </script>
+</body>
+</html>
