@@ -1,6 +1,6 @@
-body {
-background-color: None;
+h1 {
+    color: None;
 }
-body::after {
-background-color: aqua;
+.cambio {
+    color: aqua;
 }

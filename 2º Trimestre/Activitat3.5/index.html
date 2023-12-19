@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="fondo">Cambiar fondo</button>
-    <button id="quitarFondo">Restablecer</button>
+    <button id="color">Cambiar color</button>
+    <button id="quitar">Restablecer</button>
+    <div>
+        <h1 class="">Color Texto</h1>
+    </div>
     <script>
-        function fondo(){
-            let boton = window.getComputedStyle("body::after");
-            document.body.appendChild(boton);
-        } 
-        function quitarFondo() {
-            let hijos = document.body.children
-            hijos[hijos.length-1].remove()
+        let boton = document.getElementById("color")
+        boton.addEventListener("click", fondo, false)
+        const h1 = document.querySelector("h1")
+        function fondo() {
+            h1.classList.add("cambio")
+        }
+        let boton1 = document.getElementById("quitar");
+        boton1.addEventListener("click", quitarColor, false)
+        function quitarColor() {
+            h1.classList.remove("cambio")
         }
     </script>
 </body>
