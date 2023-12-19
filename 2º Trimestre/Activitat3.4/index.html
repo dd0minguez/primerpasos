@@ -9,20 +9,22 @@
 
 <body>
     <div>
-        <p id="Texto">Hola mundo</p>
-        <p id="Traduccion">Traducir</p>
+        <p>Hola mundo</p>
+        <button id="Traduccion">Traducir</button>
     </div>
     <script>
-        function mifuncion() {
-            let texto = document.getElementById("Texto");
-            texto.firstChild.nodeValue = "Hello world";
+        let boton = document.getElementById("Traduccion");
+        boton.addEventListener("click", traducir, false);
+
+        function traducir() {
+            let parrafo = document.querySelector("p");
+
+            if (parrafo.textContent == "Hello world") {
+                parrafo.textContent = "Hola mundo"
+            } else{
+                parrafo.textContent = "Hello world"
+            }
         }
-        function TraducirTextoIngles() {
-            let boton = document.getElementById("Traduccion");
-            boton.addEventListener("click", textoIngles, false);
-        }
-        // buscarlo y guardarlo en la let boto
-        boto.addEventListener("click", mifuncion)
     </script>
 </body>
 
