@@ -11,15 +11,13 @@
 
 <body>
     <div class="menu-popup">
-    </div>
-    <div class="menu2">
-        <!-- <ul class="menu2" id="menu2">
-            <li><a class="menu2" href="#">Inici</a></li>
-            <li><a class="menu2" href="# Sobre nosaltres">Sobre nosaltres</a></li>
-            <li><a class="menu2" href="#">Serveis</a></li>
-            <li><a class="menu2" href="#Portfolio">Portfolio</a></li>
-            <li><a class="menu2" href="#">Contacte</a></li>
-        </ul> -->
+        <ul class="menu2" id="menu2">
+            <li><a class="menu2-element" href="#">Inici</a></li>
+            <li><a class="menu2-element" href="# Sobre nosaltres">Sobre nosaltres</a></li>
+            <li><a class="menu2-element" href="#">Serveis</a></li>
+            <li><a class="menu2-element" href="#Portfolio">Portfolio</a></li>
+            <li><a class="menu2-element" href="#">Contacte</a></li>
+        </ul>
     </div>
     <nav class="contenedor-flex">
         <div>
@@ -171,22 +169,12 @@
         </div>
     </footer>
     <script>
-        /*let menu = document.getElementsByTagName('menu')
-        boton.addEventListener("click", menuHamburguesa, false)
-        function menuHamburguesa(){
-            this.clasList.toggle('showMenu')
-        }*/
         console.log(document.getElementsByClassName('popup'))
+        const menu2 = document.getElementById('menu2')
         document.getElementsByClassName('menu-popup')[0].addEventListener('click', function(evt) {
             this.classList.toggle('showMenu');
-            var newUl = document.createElement("ul")
-            var newLi = document.createElement("li")
-            var newA = document.createElement("a")
-            var newContent = document.createElement("Inici", "Sobre Nosaltres", "Serveis", "Portfolio", "Contacte")
-            newUl.appendChild(newLi);
-            newLi.appendChild(newA);
-            newA.appendChild(newContent);
-              console.log("Hola mudno")
+            menu2.classList.toggle('menu2-visibilidad');
+            console.log(menu2)
             });
         
     </script>
