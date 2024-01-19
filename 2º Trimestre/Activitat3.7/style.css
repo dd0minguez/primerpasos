@@ -17,6 +17,12 @@ li {
     text-align: center;
     margin: 10px;
 }
+.absoluto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 200;
+} 
 .menu {
     pointer-events: auto;
     display: flex;
@@ -38,6 +44,7 @@ li {
     transition: color 0.5s;
     text-decoration: none;
     position: sticky;
+    z-index: 500;
     top: 0px;
     overflow: hidden;
 }
@@ -54,15 +61,21 @@ li {
 .menu-popup{
     pointer-events: none;
     position: sticky;
+    z-index: 500;
     top: 0px;
+    left: 0px;
     cursor: pointer;
     margin-top: 0;
+   
 }
 .Logo-popup{
-    position: relative;
-    top: 5px;
+    /* position: relative; */
+    top: -55px;
     color: #3ba3bc;
     text-align: center;
+    visibility: hidden;
+    right: 50px;
+    margin-right: 50px;
 }
 .menu:hover {
     color: rgb(173, 169, 169);
@@ -111,6 +124,9 @@ li {
     .contenedor-flex{
         visibility: hidden;
     }
+    .Logo-popup{
+        visibility: visible;
+    }
     /*}
     a {
         visibility: hidden;
@@ -124,6 +140,7 @@ li {
     .menu-popup.showMenu::after {
         /* transform: rotate(180deg) scaleY(-1); */
         content: "X";
+        z-index: 500;
     }
     .menu2-visibilidad{
         display: flex;
@@ -134,11 +151,46 @@ li {
         margin-right: 0;
         background-color: #3ba2bcb0;
         transition: 0.4s all;
+        z-index: 300;
         
     }
 }
 @media screen and (max-width: 390px) {
-    .menu::after {
+    .menu-popup::after{
+        pointer-events: all;
+        float: right;
+        content: "☰";
+        color: white;
+        font-size: 250%;
+        background-color: #3ba2bcb0;
+        transition: transform 300ms ease;
+        transition: 0.5s;
+        margin-top: 0;
+    }
+    .contenedor-flex{
+        visibility: hidden;
+    }
+    .Logo-popup{
+        visibility: visible;
+    }
+    .menu-popup.showMenu::after {
+        /* transform: rotate(180deg) scaleY(-1); */
+        content: "X";
+        z-index: 500;
+    }
+    .menu2-visibilidad{
+        display: flex;
+        height: 640px;
+        width: 200px;
+        float: right;
+        margin-top: 0;
+        margin-right: 0;
+        background-color: #3ba2bcb0;
+        transition: 0.4s all;
+        z-index: 300;
+        
+    }
+    /* .menu::after {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -149,7 +201,7 @@ li {
     }
     a {
         visibility: hidden;
-    }
+    } */
 }
 .blanco {
     color: white;
