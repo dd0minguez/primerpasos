@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 3.8</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="Tarea">
+        <h1>Tareas</h1>
+        <div>
+            <input type="text" class="texto" id="tarea" placeholder="Escribe aqui la tarea que quieras hacer">
+            <button onclick="nuevaTarea()" class="añadir">Poner en cola</button>
+        </div>
+    </div>
+    <div> 
+        <h2>En cola</h2>
+        <ul id="listaTareas"></ul>
+    </div>
+    <script> 
+    function nuevaTarea() {
+        var li = document.createElement("li");
+        var inputValue = document.getElementById("tarea").value;
+        var texto = document.createTextNode(inputValue);
+        li.appendChild(texto);
+        if (inputValue === '') {
+            
+        } else {
+            document.getElementById("listaTareas").appendChild(li);
+        }
+        document.getElementById("tarea").value = "";
+    
+        var tarea = document.getElementsByTagName('li');
+        var i;
+        for (i = 0; i < tarea.length; i++) {
+            var span = document.createElement("span");
+            var textoQuitar = document.createTextNode("Quitar");
+            span.className = "close";
+            span.appendChild(textoQuitar);
+            li.appendChild(span);
+            
+        }
+    
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.display = "none";
+            }
+        }
+    }
+    var close = document.getElementsByClassName("close");
+    var i;
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

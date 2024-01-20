@@ -1,0 +1,73 @@
+
+h1{
+    text-align: center;
+    color: #2492ad;
+}
+h2{
+    color: #2492ad;
+}
+
+.texto{
+    position: relative;
+    left: 38%;
+    padding: 6px;
+    width: 18%;
+    text-align: center;
+    border-color:#2492ad;
+    border-radius: 5px, ;
+}
+ ul li { 
+    border: solid 0.5mm;
+    border-color: #2492ad;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    width: 25%;
+    padding: 1%;
+    list-style-type: none;
+    font-size: 18px;
+    transition: 0.2s;
+    color: #077692;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3.8%;
+  }
+  .close:hover {
+    background-color: #2492ad;
+    color: white;
+  }  
+  .Tarea:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: #2492ad;
+  }
+  input {
+    border: solid 0.5mm;
+    border-radius: 5px;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    margin-right: 10px;
+  }  
+  .añadir {
+    border: none;
+    position: absolute;
+    left: 57.5%;
+    padding: 5px;
+    width: 8%;
+    background: #3ba2bc;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .añadir:hover {
+    background-color: #279dbace;
+  }

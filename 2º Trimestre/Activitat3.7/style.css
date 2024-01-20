@@ -15,7 +15,7 @@
 li {
     list-style: none;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
 .absoluto{
     position: absolute;
@@ -46,7 +46,7 @@ li {
     position: sticky;
     z-index: 500;
     top: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .menu2-element{
     pointer-events: auto;
@@ -55,7 +55,7 @@ li {
     transition: color 0.5s;
     text-align: center;
 }
-.menu-element:hover{
+.menu2:hover {
     color: rgb(173, 169, 169);
 }
 .menu-popup{
