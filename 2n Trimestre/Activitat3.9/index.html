@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activitat3.9</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav><h1>Blog</h1></nav>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et eros
+        convallis, aliquet felis id, aliquet neque. Nullam sit amet neque eu
+        massa molestie pellentesque sit amet vel libero. Nunc vel eros id metus
+        aliquet gravida. Curabitur odio sem, aliquet id dui eu, consectetur
+        fermentum orci. Etiam lectus lectus, convallis quis justo a, bibendum
+        vestibulum elit. Proin condimentum consectetur augue. Curabitur ut
+        mattis tortor. Maecenas ut imperdiet quam, vitae laoreet nibh.
+        Suspendisse ut laoreet elit. Sed cursus tellus id diam facilisis, quis
+        commodo nisl eleifend. Pellentesque arcu risus, ornare sit amet viverra
+        sed, varius nec leo. Quisque et tincidunt ex. Ut aliquet, neque ut
+        auctor euismod, nisi nibh laoreet neque, nec porttitor nulla nulla et
+        nulla. Mauris a pulvinar felis. Sed eget varius nulla, et congue metus.
+      </p>
+      <p>
+        Vestibulum porta elementum justo, posuere maximus risus maximus a. Nam
+        eleifend tellus vel porta iaculis. Fusce fermentum faucibus dui, id
+        scelerisque lacus ultrices et. Vestibulum at euismod augue. In ultrices
+        porttitor condimentum. Phasellus non nisl sed turpis eleifend tincidunt.
+        Integer non tempus nulla. Cras sagittis dapibus nibh ullamcorper
+        blandit. Nam tellus justo, finibus et malesuada tristique, rutrum quis
+        felis. Suspendisse ac diam iaculis nunc rutrum feugiat. Nullam vitae
+        cursus sapien. Integer molestie neque lacus, a suscipit mauris laoreet
+        eu. Donec vel maximus dui. Suspendisse potenti.
+      </p>
+      <p>
+        Curabitur pellentesque, magna eu rutrum pharetra, justo turpis convallis
+        ante, ac molestie tortor diam sed ante. Nulla iaculis dui velit, at
+        maximus turpis fringilla vitae. Nullam nec malesuada tellus. Donec in
+        scelerisque nibh. Aliquam erat volutpat. Aenean efficitur, arcu vitae
+        vulputate commodo, dolor ipsum aliquam nulla, vitae euismod ex lorem in
+        nisl. Integer tristique velit id diam bibendum, vitae semper odio
+        faucibus.
+      </p>
+      <div id="sector-comentario">
+        <h2>Comentarios</h2>
+        <input
+          type="text"
+          class="comentario"
+          placeholder="Escriba aqui su comentario..."
+        />
+        <button id="publicar">Publicar</button>
+        <div>
+          <ul id="comentario"></ul>
+        </div>
+        <button class="ocultar">Ocultar comentarios</button>
+      </div>
+      <div class="mostrar">
+        <button id="mostrar">Mostrar comentarios</button>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#publicar").click(function () {
+          let comentario = $(".comentario").val();
+          let comentario_up = "<li class='comentario-subido'>" +
+              comentario +
+              "<span class='quitar'>Quitar comentario</span></li>"
+          $("#comentario").append(comentario_up);
+
+        $(comentario_up).ready(function () {
+        $(".quitar").click(function () {
+          $(this).closest("li").remove();
+        });
+      });  
+        });
+
+        $(".ocultar").click(function () {
+          $("#sector-comentario").hide();
+          $(".mostrar").show();
+        });
+
+        $(".mostrar").click(function () {
+          $("#sector-comentario").show();
+          $(".mostrar").hide();
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+h1{
+    color: #077692;
+}
+h2{
+    color: #077692;
+}
+ul {
+    position: relative;
+    right: 0px;
+}
+li{
+    border: solid 0.5mm;
+    border-color: #2492ad;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    width: auto;
+    padding: 1%;
+    list-style-type: none;
+    font-size: 18px;
+    transition: 0.2s;
+    color: #077692;
+    margin-top: 0.1%;
+}
+.quitar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1%;;
+  }
+  .quitar:hover {
+    background-color: #2492ad;
+    color: white;
+  }  
+.mostrar{
+    display: none;
+}

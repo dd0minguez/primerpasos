@@ -46,7 +46,7 @@ li {
     position: sticky;
     z-index: 500;
     top: 0px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .menu2-element{
     pointer-events: auto;
