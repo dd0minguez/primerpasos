@@ -5,10 +5,421 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activitat3.10</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/pepper-grinder/jquery-ui.css">
 </head>
 <body>
-    <div>
-
+    <div class="barra-busqueda">
+        <div class="origen">
+            <h3>Origen</h3>
+            <input type="text" id="origen" placeholder="Elige un origen">
+        </div>
+        <div class="destino">
+            <h3>Destino</h3>
+            <input type="text" id="destino" placeholder="Elige un destino">
+        </div>
+        <div class="ida">
+            <h3>Ida</h3>
+            <input type="text" id="ida" placeholder="mm/dd/yy">
+        </div>
+        <div class="vuelta">
+            <h3>Vuelta</h3>
+            <input type="text" id="vuelta" placeholder="mm/dd/yy">
+        </div>
+        <div class="pasajero">
+            <h3 for="pasajeros">Tipo de pasajero</h3>
+                <select id="pasajeros" class="menu-pasajero">
+                  <option value="en-US">Adulto</option>
+                  <option>Niño</option>
+                  <option>Bebé</option>
+                </select>
+        </div>
+        <div class="cantidad-pasajero">
+            <h3>Numero de pasajeros</h3>
+            <input id="cantidad-pasajero">
+        </div>
+        <div class="buscar">
+            <button class="boton-buscar" id="buscar">Buscar</button>
+        </div>
     </div>
+    <div class="A-Corunya">
+        <h1>Desde 20 &#x20AC;</h1>
+    </div> 
+    <div class="madrid">
+        <h1>Desde 40 &#x20AC;</h1>
+    </div>
+    <div class="albacete">
+        <h1>Desde 10 &#x20AC;</h1>
+    </div>
+    <div class="algeciras">
+        <h1>Desde 25 &#x20AC;</h1>
+    </div>
+    <div class="alicante">
+        <h1>Desde 14 &#x20AC;</h1>
+    </div>
+    <div class="almeria">
+        <h1>Desde 50 &#x20AC;</h1>
+    </div>
+    <div class="asturias">
+        <h1>Desde 80 &#x20AC;</h1>
+    </div>
+    <div class="badajoz">
+        <h1>Desde 35 &#x20AC;</h1>
+    </div>
+    <div class="bilbao">
+        <h1>Desde 40 &#x20AC;</h1>
+    </div>
+    <div class="burgos">
+        <h1>Desde 55 &#x20AC;</h1>
+    </div>
+    <div class="ceuta">
+        <h1>Desde 17 &#x20AC;</h1>
+    </div>
+    <div class="lanzarote">
+        <h1>Desde 88 &#x20AC;</h1>
+    </div>
+    <div class="cordoba">
+        <h1>Desde 42 &#x20AC;</h1>
+    </div>
+    <div class="el-hierro">
+        <h1>Desde 89 &#x20AC;</h1>
+    </div>
+    <div class="granada">
+        <h1>Desde 1 &#x20AC;</h1>
+    </div>
+    <div class="fuerteventura">
+        <h1>Desde 60 &#x20AC;</h1>
+    </div>
+    <div class="girona">
+        <h1>Desde 8 &#x20AC;</h1>
+    </div>
+    <div class="gran-canaria">
+        <h1>Desde 60 &#x20AC;</h1>
+    </div>
+    <div class="huesca">
+        <h1>Desde 20 &#x20AC;</h1>
+    </div>
+    <div class="ibiza">
+        <h1>Desde 100 &#x20AC;</h1>
+    </div>
+    <div class="murcia">
+        <h1>Desde 29 &#x20AC;</h1>
+    </div>
+    <div class="jerez">
+        <h1>Desde 49 &#x20AC;</h1>
+    </div>
+    <div class="barcelona">
+        <h1>Desde 12 &#x20AC;</h1>
+    </div>
+    <div class="la-gomera">
+        <h1>Desde 90 &#x20AC;</h1>
+    </div>
+    <div class="la-palma">
+        <h1>Desde 200 &#x20AC;</h1>
+    </div>
+    <div class="leon">
+        <h1>Desde 48 &#x20AC;</h1>
+    </div>
+    <div class="logronyo">
+        <h1>Desde 78 &#x20AC;</h1>
+    </div>
+    <div class="madrid-cuatro-vientos">
+        <h1>Desde 55 &#x20AC;</h1>
+    </div>
+    <div class="melilla">
+        <h1>Desde 60 &#x20AC;</h1>
+    </div>
+    <div class="menorca">
+        <h1>Desde 38 &#x20AC;</h1>
+    </div>
+    <div class="malaga">
+        <h1>Desde 20 &#x20AC;</h1>
+    </div>
+    <div class="mallorca">
+        <h1>Desde 0 &#x20AC;</h1>
+    </div>
+    <div class="pamplona">
+        <h1>No disponible</h1>
+    </div>
+    <div class="reus">
+        <h1>Desde 30 &#x20AC;</h1>
+    </div>
+    <div class="sabadell">
+        <h1>Desde 18 &#x20AC;</h1>
+    </div>
+    <div class="salamanca">
+        <h1>Desde 78 &#x20AC;</h1>
+    </div>
+    <div class="san-sebastian">
+        <h1>Desde 49 &#x20AC;</h1>
+    </div>
+    <div class="santiago">
+        <h1>Desde 52 &#x20AC;</h1>
+    </div>
+    <div class="santander">
+        <h1>Desde 94 &#x20AC;</h1>
+    </div>
+    <div class="sevilla">
+        <h1>Desde 67 &#x20AC;</h1>
+    </div>
+    <div class="son-bonet">
+        <h1>Desde 0 &#x20AC;</h1>
+    </div>
+    <div class="tenerife-norte">
+        <h1>Desde 100 &#x20AC;</h1>
+    </div>
+    <div class="tenerife-sur">
+        <h1>Desde 60 &#x20AC;</h1>
+    </div>
+    <div class="valencia">
+        <h1>Desde 22 &#x20AC;</h1>
+    </div>
+    <div class="valladolid">
+        <h1>Desde 49 &#x20AC;</h1>
+    </div>
+    <div class="vigo">
+        <h1>Desde 10 &#x20AC;</h1>
+    </div>
+    <div class="vitoria">
+        <h1>Desde 37 &#x20AC;</h1>
+    </div>
+    <div class="zaragoza">
+        <h1>Desde 59 &#x20AC;</h1>
+    </div>
+<script>
+    $( function() {
+    var availableTags = [
+    "A Coruña (LCG)",
+    "Adolfo Suárez Madrid-Barajas (MAD)",   
+    "Albacete (ABC)",
+    "Algeciras (AEI)",
+    "Alicante-Elche Miguel Hernández (ALC)",
+    "Almería (LEI)",
+    "Asturias (OVD)",
+    "Badajoz (BJZ)",
+    "Bilbao (BIO)",
+    "Burgos (RGS)",
+    "Ceuta (JCU)",
+    "César Manrique-Lanzarote (ACE)",
+    "Córdoba (ODB)",
+    "El Hierro (VDE)",
+    "Federico García Lorca Granada-Jaén (GRX)",
+    "Fuerteventura (FUE)",
+    "Girona-Costa Brava (GRO)",
+    "Gran Canaria (LPA)",
+    "Huesca-Pirineos (HSK)",
+    "Ibiza (IBZ)",
+    "Internacional Región de Murcia (RMU)",
+    "Jerez (XRY)",
+    "Josep Tarradellas Barcelona-El Prat (BCN)",
+    "La Gomera (GMZ)",
+    "La Palma (SPC)",
+    "León (LEN)",
+    "Logroño-Agoncillo (RJL)",
+    "Madrid-Cuatro Vientos (LECU)",
+    "Melilla (MLN)",
+    "Menorca (MAH)",
+    "Málaga-Costa del Sol (AGP)",
+    "Palma de Mallorca (PMI)",
+    "Pamplona (PNA)",
+    "Reus (REU)",
+    "Sabadell (QSA)",
+    "Salamanca (SLM)",
+    "San Sebastián (EAS)",
+    "Santiago-Rosalía de Castro (SCQ)",
+    "Seve Ballesteros-Santander (SDR)",
+    "Sevilla (SVQ)",
+    "Son Bonet (LESB)",
+    "Tenerife Norte-Ciudad de La Laguna (TFN)",
+    "Tenerife Sur (TFS)",
+    "Valencia (VLC)",
+    "Valladolid (VLL)",
+    "Vigo (VGO)",
+    "Vitoria (VIT)",
+    "Zaragoza (ZAZ)"
+    ];
+    $( "#origen" ).autocomplete({
+      source: availableTags,
+      minLength: 2
+    });
+  } );
+
+    $( function() {
+    var availableTags = [
+    "A Coruña (LCG)",
+    "Adolfo Suárez Madrid-Barajas (MAD)",   
+    "Albacete (ABC)",
+    "Algeciras (AEI)",
+    "Alicante-Elche Miguel Hernández (ALC)",
+    "Almería (LEI)",
+    "Asturias (OVD)",
+    "Badajoz (BJZ)",
+    "Bilbao (BIO)",
+    "Burgos (RGS)",
+    "Ceuta (JCU)",
+    "César Manrique-Lanzarote (ACE)",
+    "Córdoba (ODB)",
+    "El Hierro (VDE)",
+    "Federico García Lorca Granada-Jaén (GRX)",
+    "Fuerteventura (FUE)",
+    "Girona-Costa Brava (GRO)",
+    "Gran Canaria (LPA)",
+    "Huesca-Pirineos (HSK)",
+    "Ibiza (IBZ)",
+    "Internacional Región de Murcia (RMU)",
+    "Jerez (XRY)",
+    "Josep Tarradellas Barcelona-El Prat (BCN)",
+    "La Gomera (GMZ)",
+    "La Palma (SPC)",
+    "León (LEN)",
+    "Logroño-Agoncillo (RJL)",
+    "Madrid-Cuatro Vientos (LECU)",
+    "Melilla (MLN)",
+    "Menorca (MAH)",
+    "Málaga-Costa del Sol (AGP)",
+    "Palma de Mallorca (PMI)",
+    "Pamplona (PNA)",
+    "Reus (REU)",
+    "Sabadell (QSA)",
+    "Salamanca (SLM)",
+    "San Sebastián (EAS)",
+    "Santiago-Rosalía de Castro (SCQ)",
+    "Seve Ballesteros-Santander (SDR)",
+    "Sevilla (SVQ)",
+    "Son Bonet (LESB)",
+    "Tenerife Norte-Ciudad de La Laguna (TFN)",
+    "Tenerife Sur (TFS)",
+    "Valencia (VLC)",
+    "Valladolid (VLL)",
+    "Vigo (VGO)",
+    "Vitoria (VIT)",
+    "Zaragoza (ZAZ)"
+    ];
+    $( "#destino" ).autocomplete({
+      source: availableTags,
+      minLength: 2
+    });
+  } );
+  $( function() {
+    $( "#ida" ).datepicker();
+  } );
+  $( function() {
+    $( "#vuelta" ).datepicker();
+  } );
+  $( function() {
+    $( "#pasajeros" ).selectmenu();
+  } );
+  $( function() {
+    var spinner = $( "#cantidad-pasajero" ).spinner({
+        min: 1,
+        max: 5,
+    });
+    $( "#pasajeros" ).on( "change", function() {
+      $( spinner ).spinner( "option", $( this ).val() );
+    });
+  } );
+  $( function() {
+    $( "#buscar" ).button().on("click", function(){
+        var resultado = $("#origen").val();
+        if (resultado === "A Coruña (LCG)"){
+            $(".A-Corunya").show();
+        } else if (resultado === "Adolfo Suárez Madrid-Barajas (MAD)"){
+            $(".madrid").show();
+        }else if (resultado === "Albacete (ABC)"){
+            $(".albacete").show();
+        }else if (resultado === "Algeciras (AEI)"){
+            $(".algeciras").show();
+        }else if (resultado === "Alicante-Elche Miguel Hernández (ALC)"){
+            $(".alicante").show();
+        }else if (resultado === "Almería (LEI)"){
+            $(".almeria").show();
+        }else if (resultado === "Asturias (OVD)"){
+            $(".asturias").show();
+        }else if (resultado === "Badajoz (BJZ)"){
+            $(".badajoz").show();
+        }else if (resultado === "Bilbao (BIO)"){
+            $(".bilbao").show();
+        }else if (resultado === "Burgos (RGS)"){
+            $(".burgos").show();
+        }else if (resultado === "Ceuta (JCU)"){
+            $(".ceuta").show();
+        }else if (resultado === "César Manrique-Lanzarote (ACE)"){
+            $(".lanzarote").show();
+        }else if (resultado === "Córdoba (ODB)"){
+            $(".cordoba").show();
+        }else if (resultado === "El Hierro (VDE)"){
+            $(".el-hierro").show();
+        }else if (resultado === "Federico García Lorca Granada-Jaén (GRX)"){
+            $(".granada").show();
+        }else if (resultado === "Fuerteventura (FUE)"){
+            $(".fuerteventura").show();
+        }else if (resultado === "Girona-Costa Brava (GRO)"){
+            $(".girona").show();
+        }else if (resultado === "Gran Canaria (LPA)"){
+            $(".gran-canaria").show();
+        }else if (resultado === "Huesca-Pirineos (HSK)"){
+            $(".huesca").show();
+        }else if (resultado === "Ibiza (IBZ)"){
+            $(".ibiza").show();
+        }else if (resultado === "Internacional Región de Murcia (RMU)"){
+            $(".murcia").show();
+        }else if (resultado === "Jerez (XRY)"){
+            $(".jerez").show();
+        }else if (resultado === "Josep Tarradellas Barcelona-El Prat (BCN)"){
+            $(".barcelona").show();
+        }else if (resultado === "La Gomera (GMZ)"){
+            $(".la-gomera").show();
+        }else if (resultado === "La Palma (SPC)"){
+            $(".la-palma").show();
+        }else if (resultado === "León (LEN)"){
+            $(".leon").show();
+        }else if (resultado === "Logroño-Agoncillo (RJL)"){
+            $(".logronyo").show();
+        }else if (resultado === "Madrid-Cuatro Vientos (LECU)"){
+            $(".madrid-cuatro-vientos").show();
+        }else if (resultado === "Melilla (MLN)"){
+            $(".melilla").show();
+        }else if (resultado === "Menorca (MAH)"){
+            $(".menorca").show();
+        }else if (resultado === "Málaga-Costa del Sol (AGP)"){
+            $(".malaga").show();
+        }else if (resultado === "Palma de Mallorca (PMI)"){
+            $(".mallorca").show();
+        }else if (resultado === "Pamplona (PNA)"){
+            $(".pamplona").show();
+        }else if (resultado === "Reus (REU)"){
+            $(".reus").show();
+        }else if (resultado === "Sabadell (QSA)"){
+            $(".sabadell").show();
+        }else if (resultado === "Salamanca (SLM)"){
+            $(".salamanca").show();
+        }else if (resultado === "San Sebastián (EAS)"){
+            $(".san-sebastian").show();
+        }else if (resultado === "Santiago-Rosalía de Castro (SCQ)"){
+            $(".santiago").show();
+        }else if (resultado === "Seve Ballesteros-Santander (SDR)"){
+            $(".santader").show();
+        }else if (resultado === "Sevilla (SVQ)"){
+            $(".sevilla").show();
+        }else if (resultado === "Son Bonet (LESB)"){
+            $(".son-bonet").show();
+        }else if (resultado === "Tenerife Norte-Ciudad de La Laguna (TFN)"){
+            $(".tenerife-norte").show();
+        }else if (resultado === "Tenerife Sur (TFS)"){
+            $(".tenerife-sur").show();
+        }else if (resultado === "Valencia (VLC)"){
+            $(".valencia").show();
+        }else if (resultado === "Valladolid (VLL)"){
+            $(".valladolid").show();
+        }else if (resultado === "Vigo (VGO)"){
+            $(".vigo").show();
+        }
+    })({
+    });
+  } );
+  
+</script>
+</script>
 </body>
 </html>

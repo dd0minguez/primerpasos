@@ -4,3 +4,252 @@ body{
     background-size: cover;
 
 }
+.barra-busqueda{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+    background-color: goldenrod;
+    margin: 3px;
+}
+.origen{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 30px;
+}
+.destino{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 30px;
+}
+h3{
+    margin: 1%;
+}
+.ida{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 30px;
+}
+.vuelta{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 30px;
+}
+.pasajero{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+}
+.menu-pasajero{
+    width: 10px;
+}
+.cantidad-pasajero{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 18px;
+}
+.buscar{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 20px;
+    size: 5%;  
+}
+.boton-buscar{
+    margin: 25px;
+}
+.A-Corunya{
+    position: absolute;
+    visibility: hidden;
+}
+.madrid{
+    position: absolute;
+    visibility: hidden;
+}
+.albacete{
+    position: absolute;
+    visibility: hidden;
+}
+.algeciras{
+    position: absolute;
+    visibility: hidden;
+}
+.alicante{
+    position: absolute;
+    visibility: hidden;
+}
+.almeria{
+    position: absolute;
+    visibility: hidden;
+}
+.asturias{
+    position: absolute;
+    visibility: hidden;
+}
+.badajoz{
+    position: absolute;
+    visibility: hidden;
+}
+.bilbao{
+    position: absolute;
+    visibility: hidden;
+}
+.burgos{
+    position: absolute;
+    visibility: hidden;
+}
+.ceuta{
+    position: absolute;
+    visibility: hidden;
+}
+.lanzarote{
+    position: absolute;
+    visibility: hidden;
+}
+.cordoba{
+    position: absolute;
+    visibility: hidden;
+}
+.el-hierro{
+    position: absolute;
+    visibility: hidden;
+}
+.granada{
+    position: absolute;
+    visibility: hidden;
+}
+.fuerteventura{
+    position: absolute;
+    visibility: hidden;
+}
+.girona{
+    position: absolute;
+    visibility: hidden;
+}
+.gran-canaria{
+    position: absolute;
+    visibility: hidden;
+}
+.huesca{
+    position: absolute;
+    visibility: hidden;
+}
+.ibiza{
+    position: absolute;
+    visibility: hidden;
+}
+.murcia{
+    position: absolute;
+    visibility: hidden;
+}
+.jerez{
+    position: absolute;
+    visibility: hidden;
+}
+.barcelona{
+    position: absolute;
+    visibility: hidden;
+}
+.la-gomera{
+    position: absolute;
+    visibility: hidden;
+}
+.la-palma{
+    position: absolute;
+    visibility: hidden;
+}
+.leon{
+    position: absolute;
+    visibility: hidden;
+}
+.logronyo{
+    position: absolute;
+    visibility: hidden;
+}
+.madrid-cuatro-vientos{
+    visibility: hidden;
+}
+.melilla{
+    position: absolute;
+    visibility: hidden;
+}
+.menorca{
+    position: absolute;
+    visibility: hidden;
+}
+.malaga{
+    position: absolute;
+    visibility: hidden;
+}
+.mallorca{
+    position: absolute;
+    visibility: hidden;
+}
+.pamplona{
+    position: absolute;
+    visibility: hidden;
+}
+.reus{
+    position: absolute;
+    visibility: hidden;
+}
+.sabadell{
+    visibility: hidden;
+}
+.salamanca{
+    position: absolute;
+    visibility: hidden;
+}
+.san-sebastian{
+    position: absolute;
+    visibility: hidden;
+}
+.santiago{
+    position: absolute;
+    visibility: hidden;
+}
+.santander{
+    position: absolute;
+    visibility: hidden;
+}
+.sevilla{
+    position: absolute;
+    visibility: hidden;
+}
+.son-bonet{
+    position: absolute;
+    visibility: hidden;
+}
+.tenerife-norte{
+    position: absolute;
+    visibility: hidden;
+}
+.tenerife-sur{
+    position: absolute;
+    visibility: hidden;
+}
+.valencia{
+    position: absolute;
+    visibility: hidden;
+}
+.valladolid{
+    position: absolute;
+    visibility: hidden;
+}
+.vigo{
+    position: absolute;
+    visibility: hidden;
+}
+.vitoria{
+    position: absolute;
+    visibility: hidden;
+}
+.zaragoza{
+    position: absolute;
+    visibility: hidden;
+}
