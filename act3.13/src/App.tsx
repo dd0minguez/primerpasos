@@ -16,11 +16,11 @@ function App() {
       <BrowserRouter>
         <Menu />
         <Routes>
-          <Route path="/Inicio" element={<Inicio />} />
-          <Route path="/PuntoInteres" element={<PuntoInteres />} />
-          <Route path="/Restaurantes" element={<Restaurantes />} />
-          <Route path="/Hoteles" element={<Hoteles />} />
-          <Route path="/Actividades" element={<Actividades />} />
+          <Route index element={<Inicio />} />
+          <Route path="PuntoInteres" element={<PuntoInteres />} />
+          <Route path="Restaurantes" element={<Restaurantes />} />
+          <Route path="Hoteles" element={<Hoteles />} />
+          <Route path="Actividades" element={<Actividades />} />
         </Routes>
       </BrowserRouter>
     </>
