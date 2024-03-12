@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/css/main.ade095d5.css",
-    "main.js": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/js/main.9cd45c2a.js",
-    "static/js/453.48780a46.chunk.js": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/js/453.48780a46.chunk.js",
-    "static/media/Hotel1.jpeg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/Hotel1.de690872b19f088f71dd.jpeg",
-    "static/media/hotel2.jpeg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/hotel2.8860cc1ee63e9e9c19ac.jpeg",
-    "static/media/torreEiffel.jpg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/torreEiffel.05b78d87286b5d960d56.jpg",
-    "static/media/arco_triunfo.jpg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/arco_triunfo.db95374d386ec5c8a42a.jpg",
-    "static/media/louvre.jpg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/louvre.e95336e81790ab603d87.jpg",
-    "static/media/paris.jpg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/paris.3f77f77d03977bf6953d.jpg",
-    "static/media/actividad2.jpeg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/actividad2.0a62b1cd14873d1f7acb.jpeg",
-    "static/media/actividad3.jpeg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/actividad3.322964637a83efd52dbf.jpeg",
-    "static/media/actividad1.jpeg": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/actividad1.35b129567592e6c5a621.jpeg",
-    "static/media/restaurante2.webp": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/restaurante2.d6b4e65d7141dfc7fc96.webp",
-    "static/media/restaurante3.webp": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/restaurante3.5e86c806dc99df84ce39.webp",
-    "static/media/restaurante1.webp": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/media/restaurante1.743baf58ea6b3fff2825.webp",
-    "index.html": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/index.html",
-    "main.ade095d5.css.map": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/css/main.ade095d5.css.map",
-    "main.9cd45c2a.js.map": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/js/main.9cd45c2a.js.map",
-    "453.48780a46.chunk.js.map": "https://github.com/dd0minguez/primerpasos/tree/main/act3.13/build/static/js/453.48780a46.chunk.js.map"
+    "main.css": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/css/main.ade095d5.css",
+    "main.js": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/js/main.fb14454b.js",
+    "static/js/453.48780a46.chunk.js": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/js/453.48780a46.chunk.js",
+    "static/media/Hotel1.jpeg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/Hotel1.de690872b19f088f71dd.jpeg",
+    "static/media/hotel2.jpeg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/hotel2.8860cc1ee63e9e9c19ac.jpeg",
+    "static/media/torreEiffel.jpg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/torreEiffel.05b78d87286b5d960d56.jpg",
+    "static/media/arco_triunfo.jpg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/arco_triunfo.db95374d386ec5c8a42a.jpg",
+    "static/media/louvre.jpg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/louvre.e95336e81790ab603d87.jpg",
+    "static/media/paris.jpg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/paris.3f77f77d03977bf6953d.jpg",
+    "static/media/actividad2.jpeg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/actividad2.0a62b1cd14873d1f7acb.jpeg",
+    "static/media/actividad3.jpeg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/actividad3.322964637a83efd52dbf.jpeg",
+    "static/media/actividad1.jpeg": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/actividad1.35b129567592e6c5a621.jpeg",
+    "static/media/restaurante2.webp": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/restaurante2.d6b4e65d7141dfc7fc96.webp",
+    "static/media/restaurante3.webp": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/restaurante3.5e86c806dc99df84ce39.webp",
+    "static/media/restaurante1.webp": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/media/restaurante1.743baf58ea6b3fff2825.webp",
+    "index.html": "https://dd0minguez.github.io/primerpasos/act3.13/build/index.html",
+    "main.ade095d5.css.map": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/css/main.ade095d5.css.map",
+    "main.fb14454b.js.map": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/js/main.fb14454b.js.map",
+    "453.48780a46.chunk.js.map": "https://dd0minguez.github.io/primerpasos/act3.13/build/static/js/453.48780a46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ade095d5.css",
-    "static/js/main.9cd45c2a.js"
+    "static/js/main.fb14454b.js"
   ]
 }
