@@ -14,11 +14,11 @@ return (
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
             <Nav className="justify-content-center mx-4" style={{ maxHeight: '100px' }} navbarScroll>
-                <Nav.Link as={NavLink} href="Inicio">Inicio</Nav.Link>
-                <Nav.Link as={NavLink} href="PuntoInteres">Puntos de Interés</Nav.Link>
-                <Nav.Link as={NavLink} href="Restaurantes">Restaurantes</Nav.Link>
-                <Nav.Link as={NavLink} href="Hoteles">Hoteles</Nav.Link>
-                <Nav.Link as={NavLink} href="Actividades">Actividades</Nav.Link>
+                <Nav.Link as={NavLink} to="Inicio">Inicio</Nav.Link>
+                <Nav.Link as={NavLink} to="PuntoInteres">Puntos de Interés</Nav.Link>
+                <Nav.Link as={NavLink} to="Restaurantes">Restaurantes</Nav.Link>
+                <Nav.Link as={NavLink} to="Hoteles">Hoteles</Nav.Link>
+                <Nav.Link as={NavLink} to="Actividades">Actividades</Nav.Link>
             </Nav>
             {/* <Form className="d-flex">
                 <Form.Control type="search" placeholder="Busca..." className="me-2" aria-label="Search"/>
