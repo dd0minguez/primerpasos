@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/primerpasos/act3.13/build/static/css/main.ade095d5.css",
-    "main.js": "/primerpasos/act3.13/build/static/js/main.6c8d85e6.js",
+    "main.js": "/primerpasos/act3.13/build/static/js/main.ea8bac73.js",
     "static/js/453.48780a46.chunk.js": "/primerpasos/act3.13/build/static/js/453.48780a46.chunk.js",
     "static/media/Hotel1.jpeg": "/primerpasos/act3.13/build/static/media/Hotel1.de690872b19f088f71dd.jpeg",
     "static/media/hotel2.jpeg": "/primerpasos/act3.13/build/static/media/hotel2.8860cc1ee63e9e9c19ac.jpeg",
@@ -17,11 +17,11 @@
     "static/media/restaurante1.webp": "/primerpasos/act3.13/build/static/media/restaurante1.743baf58ea6b3fff2825.webp",
     "index.html": "/primerpasos/act3.13/build/index.html",
     "main.ade095d5.css.map": "/primerpasos/act3.13/build/static/css/main.ade095d5.css.map",
-    "main.6c8d85e6.js.map": "/primerpasos/act3.13/build/static/js/main.6c8d85e6.js.map",
+    "main.ea8bac73.js.map": "/primerpasos/act3.13/build/static/js/main.ea8bac73.js.map",
     "453.48780a46.chunk.js.map": "/primerpasos/act3.13/build/static/js/453.48780a46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ade095d5.css",
-    "static/js/main.6c8d85e6.js"
+    "static/js/main.ea8bac73.js"
   ]
 }

@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://dd0minguez.github.io/primerpasos/act3.13/build",
+  
   "eslintConfig": {
     "extends": [
       "react-app",
