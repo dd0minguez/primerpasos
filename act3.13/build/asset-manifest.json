@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.ade095d5.css",
-    "main.js": "/static/js/main.e607077a.js",
-    "static/js/453.48780a46.chunk.js": "/static/js/453.48780a46.chunk.js",
-    "static/media/Hotel1.jpeg": "/static/media/Hotel1.de690872b19f088f71dd.jpeg",
-    "static/media/hotel2.jpeg": "/static/media/hotel2.8860cc1ee63e9e9c19ac.jpeg",
-    "static/media/torreEiffel.jpg": "/static/media/torreEiffel.05b78d87286b5d960d56.jpg",
-    "static/media/arco_triunfo.jpg": "/static/media/arco_triunfo.db95374d386ec5c8a42a.jpg",
-    "static/media/louvre.jpg": "/static/media/louvre.e95336e81790ab603d87.jpg",
-    "static/media/paris.jpg": "/static/media/paris.3f77f77d03977bf6953d.jpg",
-    "static/media/actividad2.jpeg": "/static/media/actividad2.0a62b1cd14873d1f7acb.jpeg",
-    "static/media/actividad3.jpeg": "/static/media/actividad3.322964637a83efd52dbf.jpeg",
-    "static/media/actividad1.jpeg": "/static/media/actividad1.35b129567592e6c5a621.jpeg",
-    "static/media/restaurante2.webp": "/static/media/restaurante2.d6b4e65d7141dfc7fc96.webp",
-    "static/media/restaurante3.webp": "/static/media/restaurante3.5e86c806dc99df84ce39.webp",
-    "static/media/restaurante1.webp": "/static/media/restaurante1.743baf58ea6b3fff2825.webp",
-    "index.html": "/index.html",
-    "main.ade095d5.css.map": "/static/css/main.ade095d5.css.map",
-    "main.e607077a.js.map": "/static/js/main.e607077a.js.map",
-    "453.48780a46.chunk.js.map": "/static/js/453.48780a46.chunk.js.map"
+    "main.css": "/primerpasos/act3.13/build/static/css/main.ade095d5.css",
+    "main.js": "/primerpasos/act3.13/build/static/js/main.6c8d85e6.js",
+    "static/js/453.48780a46.chunk.js": "/primerpasos/act3.13/build/static/js/453.48780a46.chunk.js",
+    "static/media/Hotel1.jpeg": "/primerpasos/act3.13/build/static/media/Hotel1.de690872b19f088f71dd.jpeg",
+    "static/media/hotel2.jpeg": "/primerpasos/act3.13/build/static/media/hotel2.8860cc1ee63e9e9c19ac.jpeg",
+    "static/media/torreEiffel.jpg": "/primerpasos/act3.13/build/static/media/torreEiffel.05b78d87286b5d960d56.jpg",
+    "static/media/arco_triunfo.jpg": "/primerpasos/act3.13/build/static/media/arco_triunfo.db95374d386ec5c8a42a.jpg",
+    "static/media/louvre.jpg": "/primerpasos/act3.13/build/static/media/louvre.e95336e81790ab603d87.jpg",
+    "static/media/paris.jpg": "/primerpasos/act3.13/build/static/media/paris.3f77f77d03977bf6953d.jpg",
+    "static/media/actividad2.jpeg": "/primerpasos/act3.13/build/static/media/actividad2.0a62b1cd14873d1f7acb.jpeg",
+    "static/media/actividad3.jpeg": "/primerpasos/act3.13/build/static/media/actividad3.322964637a83efd52dbf.jpeg",
+    "static/media/actividad1.jpeg": "/primerpasos/act3.13/build/static/media/actividad1.35b129567592e6c5a621.jpeg",
+    "static/media/restaurante2.webp": "/primerpasos/act3.13/build/static/media/restaurante2.d6b4e65d7141dfc7fc96.webp",
+    "static/media/restaurante3.webp": "/primerpasos/act3.13/build/static/media/restaurante3.5e86c806dc99df84ce39.webp",
+    "static/media/restaurante1.webp": "/primerpasos/act3.13/build/static/media/restaurante1.743baf58ea6b3fff2825.webp",
+    "index.html": "/primerpasos/act3.13/build/index.html",
+    "main.ade095d5.css.map": "/primerpasos/act3.13/build/static/css/main.ade095d5.css.map",
+    "main.6c8d85e6.js.map": "/primerpasos/act3.13/build/static/js/main.6c8d85e6.js.map",
+    "453.48780a46.chunk.js.map": "/primerpasos/act3.13/build/static/js/453.48780a46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ade095d5.css",
-    "static/js/main.e607077a.js"
+    "static/js/main.6c8d85e6.js"
   ]
 }

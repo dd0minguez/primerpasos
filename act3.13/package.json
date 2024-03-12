@@ -20,10 +20,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "set PUBLIC_URL=https://dd0minguez.github.io/primerpasos/act3.13/build&&react-scripts build ",
+    "build": "react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://dd0minguez.github.io/primerpasos/act3.13/build",
   "eslintConfig": {
     "extends": [
       "react-app",
