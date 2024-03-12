@@ -1,3 +1,4 @@
+import { NavLink } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -13,11 +14,11 @@ return (
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
             <Nav className="justify-content-center mx-4" style={{ maxHeight: '100px' }} navbarScroll>
-                <Nav.Link href="Inicio">Inicio</Nav.Link>
-                <Nav.Link href="PuntoInteres">Puntos de Interés</Nav.Link>
-                <Nav.Link href="Restaurantes">Restaurantes</Nav.Link>
-                <Nav.Link href="Hoteles">Hoteles</Nav.Link>
-                <Nav.Link href="Actividades">Actividades</Nav.Link>
+                <Nav.Link as={NavLink} href="Inicio">Inicio</Nav.Link>
+                <Nav.Link as={NavLink} href="PuntoInteres">Puntos de Interés</Nav.Link>
+                <Nav.Link as={NavLink} href="Restaurantes">Restaurantes</Nav.Link>
+                <Nav.Link as={NavLink} href="Hoteles">Hoteles</Nav.Link>
+                <Nav.Link as={NavLink} href="Actividades">Actividades</Nav.Link>
             </Nav>
             {/* <Form className="d-flex">
                 <Form.Control type="search" placeholder="Busca..." className="me-2" aria-label="Search"/>
