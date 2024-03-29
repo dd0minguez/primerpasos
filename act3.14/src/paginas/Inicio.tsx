@@ -1,11 +1,26 @@
 import React, { useState, useEffect } from "react";
-import { Col, Container, Form, Placeholder, Row } from "react-bootstrap";
+import { Col, Container, Form, Row } from "react-bootstrap";
 import RazaInfo from "./GatoInfo";
 import RazaPInfo from "./PerrosInfo";
-export type RazasG = Raza[];
-export type RazasP = Raza[];
+export type RazasG = Raza1[];
+export type RazasP = Raza2[];
 
-export interface Raza {
+export interface Raza1 {
+  weight: Weight;
+  height: Height;
+  id: number;
+  name: string;
+  bred_for?: string;
+  breed_group?: string;
+  life_span: string;
+  temperament?: string;
+  origin?: string;
+  reference_image_id: string;
+  country_code?: string;
+  description?: string;
+  history?: string;
+}
+export interface Raza2 {
   weight: Weight;
   height: Height;
   id: number;
@@ -67,8 +82,6 @@ const Raza = () => {
     setSelectRazaIdP(event.target.value);
   };
   return (
-    
-      
         <Container fluid className="bg-info-subtle">
           <div className="d-flex align-items-center justify-content-center">
             <h1>Razas de gatos</h1>
@@ -110,8 +123,6 @@ const Raza = () => {
                 </Col>
           </Row>
         </Container>
-      
-    
   );
 };
 export default Raza;

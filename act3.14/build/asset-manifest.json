@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/css/main.e106a6f8.css",
-    "main.js": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/js/main.d62d778f.js",
+    "main.js": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/js/main.9388ddb7.js",
     "static/js/453.fccb0d33.chunk.js": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/js/453.fccb0d33.chunk.js",
     "index.html": "https://dd0minguez.github.io/primerpasos/act3.14/build/index.html",
     "main.e106a6f8.css.map": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/css/main.e106a6f8.css.map",
-    "main.d62d778f.js.map": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/js/main.d62d778f.js.map",
+    "main.9388ddb7.js.map": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/js/main.9388ddb7.js.map",
     "453.fccb0d33.chunk.js.map": "https://dd0minguez.github.io/primerpasos/act3.14/build/static/js/453.fccb0d33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e106a6f8.css",
-    "static/js/main.d62d778f.js"
+    "static/js/main.9388ddb7.js"
   ]
 }
