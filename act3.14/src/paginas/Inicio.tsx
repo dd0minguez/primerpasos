@@ -85,7 +85,6 @@ const Raza = () => {
   return (
         
         <Container fluid className="bg-info-subtle">
-          <Menu />
           <div className="d-flex align-items-center justify-content-center">
             <h1>Razas de gatos</h1>
           </div>

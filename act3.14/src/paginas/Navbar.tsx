@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Menu() {
 return (
     // bg-body-tertiary
-<Navbar expand="lg" variant='light' className="d-flex align-items-center">
+<Navbar className="d-flex align-items-center bg-info-subtle">
     
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
