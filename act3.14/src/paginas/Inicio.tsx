@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
 import RazaInfo from "./GatoInfo";
 import RazaPInfo from "./PerrosInfo";
+import Menu from "./Navbar"
 export type RazasG = Raza1[];
 export type RazasP = Raza2[];
 
@@ -82,7 +83,9 @@ const Raza = () => {
     setSelectRazaIdP(event.target.value);
   };
   return (
+        
         <Container fluid className="bg-info-subtle">
+          <Menu />
           <div className="d-flex align-items-center justify-content-center">
             <h1>Razas de gatos</h1>
           </div>
