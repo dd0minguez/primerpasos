@@ -1,0 +1,62 @@
+[
+    {
+        "coche": "Porsche 911",
+        "id": 1,
+        "disponible": true,
+        "imagen": "https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/model/765dfc51-51bc-11eb-80d1-005056bbdc38/porsche-model.png"
+    },
+    {
+        "coche": "Porsche Taycan",
+        "id": 2,
+        "disponible": true,
+        "imagen": "https://images-porsche.imgix.net/-/media/00CA7C5FC8A549DC8C308DE45D6EB695_1EB907960CE44E43AF623C5C3CCC9E5E_TA24Q3MIX0010-taycan-4s-cross-turismo-side?w=2560&h=697&q=45&crop=faces%2Centropy%2Cedges&auto=format"
+    },
+    {
+        "coche": "Mercedes clase G",
+        "id": 3,
+        "disponible": true,
+        "imagen": "https://www.mercedes-benz.es/content/dam/hq/passengercars/cars/g-class/w463-pi/modeloverview/05-2023/images/mercedes-benz-g-class-w463-modeloverview-696x392-05-2023.png"
+    },
+    {
+        "coche": "Mclaren Senna",
+        "id": 4,
+        "disponible": false,
+        "imagen": "https://mclaren.scene7.com/is/image/mclaren/Senna-tile-1-1200x1200:crop-4x3?wid=1920&hei=1440"
+    },
+    {
+        "coche": "Koenigsegg Jesko",
+        "id": 5,
+        "disponible": false,
+        "imagen": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/07/02/15936898735856.jpg"
+    },
+    {
+        "coche": "Aston Martin Vantage",
+        "id": 6,
+        "disponible": true,
+        "imagen": "https://phantom-marca.unidadeditorial.es/beaacf8b5b386a6e7198258120771540/crop/0x69/990x626/resize/828/f/jpg/assets/multimedia/imagenes/2021/03/22/16164049610582.jpg"
+    },
+    {
+        "coche": "Ferrari Purosangre",
+        "id": 7,
+        "disponible": false,
+        "imagen": "https://www.diariomotor.com/imagenes/2023/03/ferrari-purosangue-2023-prueba-862-mdm-6409d8fd1211b-e1678877040926-1280x704.webp"
+    },
+    {
+        "coche": "Lamborghini Veneno",
+        "id": 8,
+        "disponible": true,
+        "imagen": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/masterpieces/veneno/veneno_over_rev_01_m.jpg"
+    },
+    {
+        "coche": "Audi r8",
+        "id": 9,
+        "disponible": false,
+        "imagen": "https://cdn.motor1.com/images/mgl/VzM4p7/s1/audi-r8-japan-final-edition.jpg"
+    },
+    {
+        "coche": "Range Rover Velar",
+        "id": 10,
+        "disponible": true,
+        "imagen": "https://assets.config.landrover.com/lr/l560/k24/model/model_l560_k24_a-vdyn-hse_a-swb_gl.jpg?v=4bc2t"
+    }
+]
