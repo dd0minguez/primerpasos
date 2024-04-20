@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Menu from './pg/Navbar';
-// import Inicio from './pg/Inicio';
+import Inicio from './pg/Inicio';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
        <BrowserRouter >
        <Menu/>
         <Routes>
-          {/* <Route path='/' index element={</>} /> */}
+        <Route path='/' index element={<Inicio />} />
         </Routes>
       </BrowserRouter>
     </>
