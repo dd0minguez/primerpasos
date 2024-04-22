@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
 import RazaInfo from "./GatoInfo";
 import RazaPInfo from "./PerrosInfo";
-import Menu from "./Navbar"
+import Menu from "./Navbar";  
 export type RazasG = Raza1[];
 export type RazasP = Raza2[];
 
@@ -83,48 +83,50 @@ const Raza = () => {
     setSelectRazaIdP(event.target.value);
   };
   return (
-        
-        <Container fluid className="bg-info-subtle">
-          <div className="d-flex align-items-center justify-content-center">
-            <h1>Razas de gatos</h1>
-          </div>
-          <div className="d-flex align-items-center justify-content-center">
-            <p>
-              Bienvenido a la página donde descubriras que tipo de gato es el
-              elegido para ser tu compañero de vida.
-            </p>
-          </div>
-          <Row>
-            <Col className="d-flex align-items-center justify-content-center">
-              <h2>Gatos</h2>
-              <div>
-                <Form.Select value={selectRazaIdG} onChange={seleccionRazaG}>
-                  <option value="">Seleccione una raza de gato</option>
+    <Container fluid className="bg-info-subtle">
+      <div className="d-flex align-items-center justify-content-center">
+        <h1>Razas de gatos</h1>
+      </div>
+      <div className="d-flex align-items-center justify-content-center">
+        <p>
+          Bienvenido a la página donde descubriras que tipo de gato es el
+          elegido para ser tu compañero de vida.
+        </p>
+      </div>
+      <Row>
+        <Col className="d-flex align-items-center justify-content-center">
+          <h2>Gatos</h2>
+          <div>
+            <Form.Select value={selectRazaIdG} onChange={seleccionRazaG}>
+              <option value="">Seleccione una raza de gato</option>
 
-                  {razasG.map((raza) => (
-                    <option value={raza.id}>{raza.name}</option>
-                  ))}
-                </Form.Select>
-              </div>
-            </Col>
-            {selectRazaIdG && <RazaInfo id={selectRazaIdG} />}
-            <Col className="d-flex align-items-center justify-content-center" md={6}>
-                    <h2 >Perros</h2>
-                    <div>
-                      <Form.Select value={selectRazaIdP} onChange={seleccionRazaP}>
-                      <option value="">Seleccione una raza de perro</option>
-              
-                      {razasP.map((razaP) => (
-                          <option value={razaP.id}>
-                          {razaP.name}
-                          </option>
-                      ))}
-                      </Form.Select >
-                    </div>
-                    {selectRazaIdP && <RazaPInfo id={selectRazaIdP} />}
-                </Col>
+              {razasG.map((raza) => (
+                <option value={raza.id}>{raza.name}</option>
+              ))}
+            </Form.Select>
+          </div>
+        </Col>
+        {selectRazaIdG && <RazaInfo id={selectRazaIdG} />}
+        <Col
+          className="d-flex align-items-center justify-content-center"
+          md={6}
+        >
+          <Row>
+          <h2>Perros</h2>
+          <div>
+            <Form.Select value={selectRazaIdP} onChange={seleccionRazaP}>
+              <option value="">Seleccione una raza de perro</option>
+
+              {razasP.map((razaP) => (
+                <option value={razaP.id}>{razaP.name}</option>
+              ))}
+            </Form.Select>
+          </div>
           </Row>
-        </Container>
+          {selectRazaIdP && <RazaPInfo id={selectRazaIdP} />}
+        </Col>
+      </Row>
+    </Container>
   );
 };
 export default Raza;
