@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/dd0minguez/primerpasos/main/act3.15/info.json",
+    "type": "array",
+    "items": {
+      "type": "object",
+        "properties":{
+          "coche": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "disponible": {
+            "type": "boolean"
+          },
+          "imagen": {
+            "type": "string",
+            "format": "url"
+          }
+        },
+         "required": [
+           "coche",
+           "id",
+           "disponible",
+           "imagen"
+         ]
+    }
+      
+}
