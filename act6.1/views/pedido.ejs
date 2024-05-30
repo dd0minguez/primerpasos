@@ -1,0 +1,9 @@
+<%- include("header") %>
+    <h1>Pedidos</h1>
+    <% comanda.forEach((pedido, index) => { %>
+        <div>
+           <p>Pedido  <%= pedido.id %><a class="btn btn-light" href= "/pedidoDetalle?id=<%= pedido.id %>" role="button">Ver mas detalles</a></p>
+        </div>
+<% }) %>
+<a class="btn btn-light" href= "/formPedido" role="button">Hacer mas pedidos</a></p>
+<%- include("footer") %>

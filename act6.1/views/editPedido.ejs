@@ -1,0 +1,23 @@
+<%- include("header") %>
+    <h1>Editar el pedido</h1>
+        <form action="editPedido" method="post">
+            <input name="id" value="<%= pedido.id %>" hidden>
+                <select name="lista_usuarios" class="select">
+                    <% usuaris.forEach((usuario, index) => { %>
+                        <% if (usuario.id == pedido.usuari_id) { %>
+                            <option value="patata">patata</option> 
+                        <% }%>
+                        <option value="<%= usuario.id %>" <% if (usuario.id == pedido.usuari_id) { %> selected <% } %>><%= usuario.nom %></option>
+                    <% }) %>
+                </select>
+                <label for="nombreProducto" id="nombreProducto">Nombre del producto</label>
+                <select name="lista_productos" class="select">
+                    <% productes.forEach((producto, index) => { %>
+                        <option value="<%= producto.id %>" <% if (producto.id == pedido.producte_id) { %> selected <% } %>><%= producto.nom %></option>
+                    <% }) %>
+                </select>
+                <button type="submit">Editar</button>
+            </div>
+        </form>
+
+<%- include("footer") %>

@@ -1,6 +1,9 @@
 <%- include("header") %>
-    <%- productos.forEach((producto, index) => { %>
-        <p><%= producto.nombre %></p>
+<h1>Productos</h1>
+    <% productes.forEach((producto, index) => { %>
+            <div>
+                <%= producto.nom %> <a class="btn btn-light" href= "/productoDetalle?id=<%= producto.id %>" role="button">Ver mas detalles</a>
+            </div>
     <% }) %>
-
+<a class="btn btn-light" href="/producto" role="button">Añadir mas productos</a>
 <%- include("footer") %>

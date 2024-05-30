@@ -1,6 +1,9 @@
 <%- include("header") %>
-    <%- usuarios.forEach((usuario, index) => { %>
-        <p><%= usuario.nombre %></p>
+<h1>Usuarios</h1>
+    <% usuaris.forEach((usuario, index) => { %>
+            <div>
+                <%= usuario.nom %>  <a class="btn btn-light" href= "/usuarioDetalle?id=<%= usuario.id %>" role="button">Ver mas detalles</a>
+            </div>
     <% }) %>
-
+<a class="btn btn-light" href="/usuario" role="button">Añadir mas usuarios</a>
 <%- include("footer") %>

@@ -1,0 +1,10 @@
+<%- include("header") %>
+<h1>Detalle del pedido</h1>
+            <div>
+                <p>Id del pedido: <%= pedido.id %></p>
+                <p>Nombre del usuario del pedido: <%= pedido.nombreUsuario %></p>
+                <p>Nombre del producto: <%= pedido.nombreProducto %></p>
+            </div>
+            <a class="btn btn-light" href= "/editPedido?id=<%= pedido.id %>" role="button">Editar el pedido</a></p>
+
+<%- include("footer") %>
