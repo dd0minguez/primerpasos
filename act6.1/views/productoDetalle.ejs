@@ -5,4 +5,5 @@
                 <p>Nombre del producto: <%= producto.nom %></p>
                 <p>Precio del producto: <%= producto.preu %></p>
             </div>
+            <a class="btn btn-light" href= "/editProducto?id=<%= producto.id %>" role="button">Editar el producto</a>
 <%- include("footer") %>

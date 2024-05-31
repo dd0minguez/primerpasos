@@ -62,6 +62,29 @@ app.post('/editPedido' , (req,res) => {
     const fun = pre.run(req.body.lista_usuarios, req.body.lista_productos, req.body.id);
     res.redirect('/pedido');
 })
+app.get('/editUsuario' , (req,res) => {
+    const usuario_Id = req.query.id;
+    const usuario_select = db.prepare('SELECT * FROM usuaris WHERE id = ?').get(usuario_Id);
+    console.log(usuario_select);
+    res.render('editUsuario', {usuario_select:usuario_select});
+})
+app.post('/editUsuario' , (req,res) => {
+    const pre = db.prepare("UPDATE usuaris SET nom = ?, email = ? WHERE id = ?")
+    console.log(req.body);
+    const fun = pre.run(req.body.nom, req.body.email, req.body.id);
+    res.redirect('/usuarios');
+})
+app.get('/editProducto' , (req,res) => {
+    const pedido_Id = req.query.id;
+    const producto_select = db.prepare('SELECT * FROM productes WHERE id = ?').get(pedido_Id);
+    res.render('editProducto', {producto_select:producto_select});
+})
+app.post('/editProducto' , (req,res) => {
+    const pre = db.prepare("UPDATE productes SET nom = ?, preu = ? WHERE id = ?")
+    console.log(req.body);
+    const fun = pre.run(req.body.nom, req.body.preu, req.body.id);
+    res.redirect('/productos');
+})
 app.post('/formPedido' , (req,res) => {
     const pre = db.prepare("INSERT INTO comandes (usuari_id, producte_id) values (?, ?)");
     const fun = pre.run(req.body.lista_usuarios, req.body.lista_productos);

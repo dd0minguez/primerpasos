@@ -2,11 +2,9 @@
     <h1>Editar el pedido</h1>
         <form action="editPedido" method="post">
             <input name="id" value="<%= pedido.id %>" hidden>
+            <label for="nombreUsuario" id="nombreUsuario">Nombre del usuario del pedido</label>
                 <select name="lista_usuarios" class="select">
                     <% usuaris.forEach((usuario, index) => { %>
-                        <% if (usuario.id == pedido.usuari_id) { %>
-                            <option value="patata">patata</option> 
-                        <% }%>
                         <option value="<%= usuario.id %>" <% if (usuario.id == pedido.usuari_id) { %> selected <% } %>><%= usuario.nom %></option>
                     <% }) %>
                 </select>
